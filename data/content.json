@@ -1,0 +1,926 @@
+{
+  "meta": {
+    "title": "조금 빠른 소식과 대도각참 평가 [ 포켓몬고 ]",
+    "channel": "광명남자",
+    "format": "실시간 스트리밍 다시보기",
+    "date": "2026-11-21",
+    "durationSec": 5985,
+    "durationLabel": "1:39:45",
+    "videoId": "2v1L4VgUayw",
+    "url": "https://www.youtube.com/watch?v=2v1L4VgUayw",
+    "structure": [
+      "① 유출된 기술 패치 내역 검토 (0:00~약 58:00)",
+      "② 요약·평가 (약 58:00~1:00:45)",
+      "③ 대도각참 실전 배틀 후기 (약 1:03~1:39)"
+    ]
+  },
+  "disclaimers": [
+    {
+      "id": "unofficial",
+      "text": "이 정리는 영상의 자동 생성 한국어 자막과 화면 캡처를 바탕으로 작성했습니다. 자막에는 인식 오류가 많아 일부 포켓몬·기술 이름은 화면의 영문 표기와 맞춰 보정했고, 확신이 어려운 부분은 \"추정\"으로 표시했습니다. 패치 수치는 공식 공지가 아니라 유출 정리본을 스트리머가 읽어 준 내용이므로 정식 공지와 다를 수 있습니다."
+    },
+    {
+      "id": "timecode",
+      "text": "시각은 영상 재생 시간 기준이며, 수치와 포켓몬 이름은 자동 자막과 화면 캡처로 확인한 범위입니다. 중요한 수치는 정식 공지로 다시 확인하세요."
+    }
+  ],
+  "summary": [
+    {
+      "title": "기술 패치 출처는 비공식",
+      "text": "스트리머는 커뮤니티에 올라온 정리 이미지를 화면에 띄워 읽었고, 정식 공지가 뜨면 수정될 수 있다고 직접 밝혔습니다.",
+      "ts": [
+        {
+          "label": "1:00:00",
+          "sec": 3600
+        }
+      ],
+      "link": "#/moves"
+    },
+    {
+      "title": "너프",
+      "text": "돌 던지기(에너지 수급 감소), 사이코 브레이크(에너지 소비 증가), 락슬라이드(위력·에너지 감소), 싱크로노이즈(위력 80→65). 스트리머는 메가 뮤츠와 멜메탈(자막 표기 \"멜리시\", 추정) 견제로 해석했습니다.",
+      "ts": [],
+      "link": "#/moves?kind=nerf"
+    },
+    {
+      "title": "버프",
+      "text": "열풍·부루탈스윙·구멍파기·트리플 악셀·크로스촙·진흙폭탄과 랜드로스 계열 폭풍 기술(열사/번개/찬바람).",
+      "ts": [],
+      "link": "#/moves?kind=buff"
+    },
+    {
+      "title": "가장 큰 수혜자: 랜드로스",
+      "text": "\"100% 개체가 있으면 일단 키우라\"고 권했고, 반짝 교환도 나쁘지 않다고 했습니다.",
+      "ts": [
+        {
+          "label": "58:30",
+          "sec": 3510
+        }
+      ],
+      "link": "#/timeline"
+    },
+    {
+      "title": "기대 포켓몬",
+      "text": "영상 마무리 요약에서 꼽은 건 에레브(일렉터버즈)와 픽시(클레페이블) 정도입니다.",
+      "ts": [
+        {
+          "label": "59:24",
+          "sec": 3564
+        }
+      ],
+      "link": "#/pokemon?verdict=promising"
+    },
+    {
+      "title": "대도각참",
+      "text": "역할은 분명히 있지만 체급이 낮아 아쉽다는 평가입니다. 실전에서는 대도각참을 빼고 다른 포켓몬을 넣으니 더 괜찮았다고 했습니다.",
+      "ts": [
+        {
+          "label": "1:31:00",
+          "sec": 5460
+        }
+      ],
+      "link": "#/kingambit"
+    }
+  ],
+  "moves": [
+    {
+      "id": "rock-throw",
+      "nameKo": "돌 던지기",
+      "nameEn": "Rock Throw",
+      "kind": "nerf",
+      "changeText": "에너지 수급 감소",
+      "changes": [],
+      "summary": "멜메탈(추정) 견제용 너프. 전기컵 등에서 대구리가 쓰던 기술이라 함께 피해를 봤다고 설명.",
+      "timestamps": [
+        {
+          "label": "2:45",
+          "sec": 165
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen",
+        "estimated"
+      ],
+      "screenshotIds": [
+        "s0300"
+      ]
+    },
+    {
+      "id": "psystrike",
+      "nameKo": "사이코 브레이크",
+      "nameEn": "Psystrike",
+      "kind": "nerf",
+      "changeText": "에너지 소비 증가 (현재 45, 50~55 예상)",
+      "changes": [
+        {
+          "field": "에너지",
+          "from": "45",
+          "to": "50~55 예상"
+        }
+      ],
+      "summary": "평타 5번이면 나가던 기술이 6번이 될 것. 메가 뮤츠 억제 목적으로 해석.",
+      "timestamps": [
+        {
+          "label": "3:00",
+          "sec": 180
+        },
+        {
+          "label": "3:52",
+          "sec": 232
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen",
+        "estimated"
+      ],
+      "screenshotIds": [
+        "s0300"
+      ]
+    },
+    {
+      "id": "rock-slide",
+      "nameKo": "락슬라이드",
+      "nameEn": "Rock Slide",
+      "kind": "nerf",
+      "changeText": "위력·에너지 소비 감소",
+      "changes": [],
+      "summary": "스톤샤워(락슬라이드)가 5번 만에 나가게 되어 일부 바위 포켓몬에는 이득.",
+      "timestamps": [
+        {
+          "label": "4:00",
+          "sec": 240
+        },
+        {
+          "label": "4:14",
+          "sec": 254
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0300"
+      ]
+    },
+    {
+      "id": "mud-bomb",
+      "nameKo": "진흙폭탄",
+      "nameEn": "Mud Bomb",
+      "kind": "buff",
+      "changeText": "위력 증가, 에너지 소비 증가",
+      "changes": [],
+      "summary": "해당 기술을 쓰는 포켓몬이 적어 영향은 제한적이라고 봄.",
+      "timestamps": [
+        {
+          "label": "5:06",
+          "sec": 306
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0300"
+      ]
+    },
+    {
+      "id": "storms",
+      "nameKo": "열사/번개/찬바람 폭풍",
+      "nameEn": "Sandsear·Wildbolt·Bleakwind Storm",
+      "kind": "buff",
+      "changeText": "위력 상승 (랜드로스 계열)",
+      "changes": [],
+      "summary": "이해하기 어려운 버프라며 랜드로스가 크게 강해질 것으로 예상.",
+      "timestamps": [
+        {
+          "label": "6:09",
+          "sec": 369
+        },
+        {
+          "label": "7:33",
+          "sec": 453
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0300"
+      ]
+    },
+    {
+      "id": "heat-wave",
+      "nameKo": "열풍",
+      "nameEn": "Heat Wave",
+      "kind": "buff",
+      "changeText": "위력 증가",
+      "changes": [],
+      "summary": "썬더, 토게틱 등에 좋은 소식.",
+      "timestamps": [
+        {
+          "label": "7:41",
+          "sec": 461
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    },
+    {
+      "id": "brutal-swing",
+      "nameKo": "부루탈스윙",
+      "nameEn": "Brutal Swing",
+      "kind": "buff",
+      "changeText": "위력 증가",
+      "changes": [],
+      "summary": "개굴닌자 등이 사용. \"굳이 안 올려도 됐다\"는 평.",
+      "timestamps": [
+        {
+          "label": "8:28",
+          "sec": 508
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    },
+    {
+      "id": "dig",
+      "nameKo": "구멍파기",
+      "nameEn": "Dig",
+      "kind": "buff",
+      "changeText": "에너지 50→45 (위력 70)",
+      "changes": [
+        {
+          "field": "에너지",
+          "from": "50",
+          "to": "45"
+        }
+      ],
+      "summary": "사실상 글라이거 하나를 위한 버프로 해석.",
+      "timestamps": [
+        {
+          "label": "9:17",
+          "sec": 557
+        },
+        {
+          "label": "11:04",
+          "sec": 664
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    },
+    {
+      "id": "triple-axel",
+      "nameKo": "트리플 악셀",
+      "nameEn": "Triple Axel",
+      "kind": "buff",
+      "changeText": "에너지 소비 감소 (40 추정)",
+      "changes": [],
+      "summary": "위력 60에 자속이 붙어 효율이 좋음. 프리져, 눈여아에 기대.",
+      "timestamps": [
+        {
+          "label": "11:12",
+          "sec": 672
+        },
+        {
+          "label": "12:42",
+          "sec": 762
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen",
+        "estimated"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    },
+    {
+      "id": "cross-chop",
+      "nameKo": "크로스촙",
+      "nameEn": "Cross Chop",
+      "kind": "buff",
+      "changeText": "위력 증가",
+      "changes": [],
+      "summary": "배우는 포켓몬이 많지 않다고 평가.",
+      "timestamps": [
+        {
+          "label": "12:54",
+          "sec": 774
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    },
+    {
+      "id": "synchronoise",
+      "nameKo": "싱크로노이즈",
+      "nameEn": "Synchronoise",
+      "kind": "nerf",
+      "changeText": "위력 80→65",
+      "changes": [
+        {
+          "field": "위력",
+          "from": "80",
+          "to": "65"
+        }
+      ],
+      "summary": "에너지가 35면 과하고 40~45면 정배라는 계산. 40이어도 쓰이기 어려울 것으로 봄.",
+      "timestamps": [
+        {
+          "label": "13:39",
+          "sec": 819
+        },
+        {
+          "label": "15:02",
+          "sec": 902
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen",
+        "estimated"
+      ],
+      "screenshotIds": [
+        "s0920"
+      ]
+    }
+  ],
+  "movesNote": "총평(약 15:07~15:47): 크게 달라진 것은 사이코 브레이크 너프와 열사의 폭풍·열풍 버프이며, 사이코 브레이크 너프와 열사 버프는 \"과했다\"는 의견입니다.",
+  "movesNoteTs": [
+    {
+      "label": "15:07",
+      "sec": 907
+    },
+    {
+      "label": "15:47",
+      "sec": 947
+    }
+  ],
+  "pokemon": [
+    {
+      "id": "electabuzz",
+      "nameKo": "에레브",
+      "nameEn": "Electabuzz",
+      "newMoves": [
+        "Wild Charge",
+        "Cross Chop",
+        "Karate Chop"
+      ],
+      "verdict": "promising",
+      "verdictBasis": "요약에서 \"판에 들어올 만하다\"고 꼽은 포켓몬.",
+      "comment": "전기와 격투 기술을 갖춰 상대하기 까다롭다고 평가.",
+      "timestamps": [
+        {
+          "label": "19:23",
+          "sec": 1163
+        },
+        {
+          "label": "20:06",
+          "sec": 1206
+        },
+        {
+          "label": "59:24",
+          "sec": 3564
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s1950"
+      ]
+    },
+    {
+      "id": "clefable",
+      "nameKo": "픽시",
+      "nameEn": "Clefable",
+      "newMoves": [
+        "Mystical Fire (매지컬 플레임)"
+      ],
+      "verdict": "promising",
+      "verdictBasis": "\"강철 상대 수단이 생겨 좋은 버프\"라고 평가.",
+      "comment": "위력 60·에너지 45 수준으로 평타 5번 정도면 발동하고, 기존 기술이 좋아 선택지가 많음. 다음 주 토요일 메가 픽시 등장 예정을 언급.",
+      "timestamps": [
+        {
+          "label": "29:57",
+          "sec": 1797
+        },
+        {
+          "label": "31:43",
+          "sec": 1903
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s3040"
+      ]
+    },
+    {
+      "id": "garganacl",
+      "nameKo": "콜로솔트",
+      "nameEn": "Garganacl",
+      "newMoves": [
+        "Dynamic Punch (폭발펀치)"
+      ],
+      "verdict": "promising",
+      "verdictBasis": "강철·카운터 상대 수단이 생기고 머드샷과 궁합이 좋다고 평가.",
+      "comment": "바위 기술밖에 없었는데 강철·카운터 상대 수단이 생김. 머드샷과 궁합이 좋다고 평가.",
+      "timestamps": [
+        {
+          "label": "20:44",
+          "sec": 1244
+        },
+        {
+          "label": "21:38",
+          "sec": 1298
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s1950"
+      ]
+    },
+    {
+      "id": "carracosta",
+      "nameKo": "늑골라",
+      "nameEn": "Carracosta",
+      "newMoves": [
+        "Low Kick",
+        "Rock Slide"
+      ],
+      "verdict": "unsure",
+      "verdictBasis": "\"이번 시즌 한 번쯤은 마주칠 것\"이라는 정도의 평가.",
+      "comment": "5번 만에 락슬라이드가 나가며, 이번 시즌 한 번쯤은 마주칠 것이라고 평가.",
+      "timestamps": [
+        {
+          "label": "44:07",
+          "sec": 2647
+        },
+        {
+          "label": "44:37",
+          "sec": 2677
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s3040"
+      ]
+    },
+    {
+      "id": "regirock",
+      "nameKo": "레지락",
+      "nameEn": "Regirock",
+      "newMoves": [
+        "Meteor Beam"
+      ],
+      "verdict": "skip",
+      "verdictBasis": "\"상성이 나빠 유튜브용 예능에 가깝다\"는 평가.",
+      "comment": "위력이 매우 높지만 상성이 나빠 유튜브용 예능에 가깝다고 봄.",
+      "timestamps": [
+        {
+          "label": "40:29",
+          "sec": 2429
+        },
+        {
+          "label": "42:15",
+          "sec": 2535
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s4045"
+      ]
+    },
+    {
+      "id": "regice",
+      "nameKo": "레지아이스",
+      "nameEn": "Regice",
+      "newMoves": [
+        "Ice Beam"
+      ],
+      "verdict": "unsure",
+      "verdictBasis": "\"애매하다\"는 평가.",
+      "comment": "포켓몬GO에서는 얼음 단일이 바위 단일보다 더 불리하다고 설명.",
+      "timestamps": [
+        {
+          "label": "33:19",
+          "sec": 1999
+        },
+        {
+          "label": "34:26",
+          "sec": 2066
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s3040"
+      ]
+    },
+    {
+      "id": "hariyama",
+      "nameKo": "하리뭉 등",
+      "nameEn": "Hariyama 외",
+      "newMoves": [
+        "Chilling Water 등"
+      ],
+      "verdict": "skip",
+      "verdictBasis": "이중 약점을 받으면 소용없다는 평가, 눈설왕 등은 에너지 효율이 낮다고 봄.",
+      "comment": "불꽃 상대용으로 준 기술이지만 이중 약점을 받으면 소용없다고 평가. 눈설왕 등은 에너지 효율이 낮다고 봄.",
+      "timestamps": [
+        {
+          "label": "49:33",
+          "sec": 2973
+        },
+        {
+          "label": "53:11",
+          "sec": 3191
+        }
+      ],
+      "badges": [
+        "leak",
+        "screen"
+      ],
+      "screenshotIds": [
+        "s5000"
+      ]
+    }
+  ],
+  "pokemonNote": "영상 중간에 거론된 포켓몬은 이 밖에도 많지만, 스트리머가 대부분 \"안 쓸 것 같다\"고 했습니다(예: 티고라스, 아쿠스타 계열 등).",
+  "verdictRule": "기대 / 애매 / 비추천 라벨은 PDF의 평가 문장에서 파생한 분류입니다. 새 의견을 더한 것이 아니며, 각 카드에 분류 근거 문장을 함께 표시합니다.",
+  "timeline": [
+    {
+      "id": "part1",
+      "label": "① 기술 패치 검토",
+      "startSec": 0,
+      "endSec": 3480,
+      "color": "#3b6ea5",
+      "items": [
+        {
+          "label": "기술 변경",
+          "ref": "#/moves"
+        },
+        {
+          "label": "기술 습득",
+          "ref": "#/pokemon"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "label": "② 요약·평가",
+      "startSec": 3480,
+      "endSec": 3645,
+      "color": "#c47f17",
+      "items": [
+        {
+          "label": "요약과 우선순위",
+          "ref": "#/"
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "label": "③ 대도각참 실전",
+      "startSec": 3780,
+      "endSec": 5985,
+      "color": "#2f8f6b",
+      "items": [
+        {
+          "label": "대도각참 평가",
+          "ref": "#/kingambit"
+        },
+        {
+          "label": "마무리 발언",
+          "ref": "#/kingambit"
+        }
+      ]
+    }
+  ],
+  "priorities": [
+    {
+      "text": "멜메탈은 덜 보이게 되어 좋을 것이라고 봤고, 메가 뮤츠는 지금도 허덕이는 상태라고 평가했습니다.",
+      "strong": false
+    },
+    {
+      "text": "랜드로스는 크게 좋아졌습니다. 100% 개체는 키우고, 잡을 수 있으면 잡으라고 권했습니다.",
+      "strong": true
+    },
+    {
+      "text": "개굴닌자(자막상 \"개굴린나삼\")는 물 타입이라 잘못 쓰면 녹아내리므로 어느 정도 실력이 있을 때 쓰라고 조언했습니다.",
+      "strong": false
+    },
+    {
+      "text": "그나마 기대할 포켓몬은 에레브(자막 \"엘레브\")와 픽시이고, 크로스촙을 쓰는 괴력몬도 기대한다고 했습니다.",
+      "strong": false
+    },
+    {
+      "text": "썸네일에 나온 레전드 포즈 유출 이미지는 정식 공지 전이라 100% 맞다고 할 수 없다는 점을 거듭 강조했습니다.",
+      "strong": false
+    }
+  ],
+  "prioritiesTs": [
+    {
+      "label": "58:04",
+      "sec": 3484
+    },
+    {
+      "label": "1:00:45",
+      "sec": 3645
+    }
+  ],
+  "kingambit": {
+    "intro": "메가 마스터 리그에서 대도각참을 직접 굴려 본 후기입니다. 화면 왼쪽 위에는 ELO와 세트별 승패가 표시됩니다.",
+    "rows": [
+      {
+        "key": "장점",
+        "tone": "pro",
+        "text": "역할은 분명히 있음. 메가 뮤츠, 루나아라, 이벨타르 등 특정 상대에게 통하고, 차지 기술을 쓸 때의 모션이 멋있다는 언급도 있음.",
+        "timestamps": [
+          {
+            "label": "1:31:00",
+            "sec": 5460
+          },
+          {
+            "label": "1:09:37",
+            "sec": 4177
+          }
+        ]
+      },
+      {
+        "key": "단점",
+        "tone": "con",
+        "text": "체급이 낮아 가이오가 등에 쉽게 무너지고, 인파이트를 버티지 못해 황가를 대체하기는 어렵다고 평가.",
+        "timestamps": [
+          {
+            "label": "1:31:28",
+            "sec": 5488
+          },
+          {
+            "label": "1:31:57",
+            "sec": 5517
+          }
+        ]
+      },
+      {
+        "key": "조합 경험",
+        "tone": "neutral",
+        "text": "대도각참+제크로무 조합은 3세트를 해 보고 계속 아쉬워 대도각참을 빼고 다른 포켓몬을 넣었더니 괜찮았다고 함.",
+        "timestamps": [
+          {
+            "label": "1:07:58",
+            "sec": 4078
+          },
+          {
+            "label": "1:08:07",
+            "sec": 4087
+          }
+        ]
+      },
+      {
+        "key": "자시안 상대법",
+        "tone": "neutral",
+        "text": "인파이트 위주로 압박하고 CMP(차지 우선권)를 확보하는 방향.",
+        "timestamps": [
+          {
+            "label": "1:32:55",
+            "sec": 5575
+          },
+          {
+            "label": "1:33:08",
+            "sec": 5588
+          }
+        ]
+      },
+      {
+        "key": "결과",
+        "tone": "neutral",
+        "text": "1세트 1승 4패, 2세트 4승. 화면의 ELO는 2923→2881로 변동. 시간이 길어져 마무리.",
+        "timestamps": [
+          {
+            "label": "1:30:00",
+            "sec": 5400
+          },
+          {
+            "label": "1:39:00",
+            "sec": 5940
+          }
+        ]
+      }
+    ],
+    "result": {
+      "eloFrom": 2923,
+      "eloTo": 2881,
+      "set1": "1승 4패",
+      "set2": "4승"
+    },
+    "screenshotIds": [
+      "b0630",
+      "b1810",
+      "b3810"
+    ]
+  },
+  "closing": [
+    {
+      "text": "메가 한카리아스(자막 \"메한카\") 중심 덱은 전날 영상에서 소개했으며, 이 덱으로 계정 세 개 모두 레전드를 찍었다고 말했습니다. \"요즘 무조건 쓰라\"고 추천했습니다.",
+      "timestamps": [
+        {
+          "label": "1:34:45",
+          "sec": 5685
+        },
+        {
+          "label": "1:35:02",
+          "sec": 5702
+        }
+      ]
+    },
+    {
+      "text": "마지막에는 사이코 브레이크 너프가 실제로 체감된다고 말하며, 카운터로 사이코 브레이크를 쓰려면 9초가 걸린다는 점을 언급했습니다.",
+      "timestamps": [
+        {
+          "label": "1:38:14",
+          "sec": 5894
+        },
+        {
+          "label": "1:39:16",
+          "sec": 5956
+        }
+      ]
+    },
+    {
+      "text": "다음 날 더 좋은 덱이 있으면 다시 보여 주겠다며 방송을 마쳤습니다.",
+      "timestamps": [
+        {
+          "label": "1:39:31",
+          "sec": 5971
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "id": "s0300",
+      "file": "assets/s0300.jpg",
+      "timeSec": 180,
+      "caption": "[3:00] 기술 변경 목록 첫 부분. Rock Throw(에너지 수급 감소), Psystrike(에너지 소비 증가), Rock Slide, Mud Bomb, Sandsear·Wildbolt·Bleakwind Storm 순서로 보입니다. 이 장면에서 사이코 브레이크 너프를 논의했습니다.",
+      "alt": "기술 변경 목록 첫 부분 캡처",
+      "group": "moves",
+      "ref": "#/moves"
+    },
+    {
+      "id": "s0920",
+      "file": "assets/s0920.jpg",
+      "timeSec": 560,
+      "caption": "[9:20] 목록 아래쪽의 Heat Wave, Brutal Swing, Dig(에너지 소비 감소), Triple Axel(에너지 소비 감소), Cross Chop, Synchronoise. 왼쪽 휴대폰에는 구멍파기 현재 수치(위력 70, 에너지 50)가 검색되어 있습니다.",
+      "alt": "열풍·구멍파기·트리플 악셀 등 기술 변경 캡처",
+      "group": "moves",
+      "ref": "#/moves"
+    },
+    {
+      "id": "s1950",
+      "file": "assets/s1950.jpg",
+      "timeSec": 1190,
+      "caption": "[19:50] 왼쪽은 에레브(No.125)의 기술 목록. 오른쪽 목록에는 Electabuzz가 Wild Charge·Cross Chop·Karate Chop을 새로 배운다고 나옵니다.",
+      "alt": "에레브 기술 목록과 습득 기술 목록 캡처",
+      "group": "pokemon",
+      "ref": "#/pokemon"
+    },
+    {
+      "id": "s3040",
+      "file": "assets/s3040.jpg",
+      "timeSec": 1840,
+      "caption": "[30:40] 픽시(No.36, 클레페이블)의 스페셜 기술 목록과, 오른쪽의 Clefable(Mystical Fire 습득), Carracosta(Low Kick), Staraptor(Blaze Kick), Drampa(Heat Wave) 등 습득 목록.",
+      "alt": "픽시 기술 목록과 습득 기술 목록 캡처",
+      "group": "pokemon",
+      "ref": "#/pokemon"
+    },
+    {
+      "id": "s4045",
+      "file": "assets/s4045.jpg",
+      "timeSec": 2445,
+      "caption": "[40:45] 레지락의 Meteor Beam, 알로라 골렘·그래블러의 Rock Slide 등이 보이는 습득 목록. 왼쪽 휴대폰은 메가·원시 포켓몬의 CP 순서 목록입니다.",
+      "alt": "레지락 Meteor Beam 습득 목록 캡처",
+      "group": "pokemon",
+      "ref": "#/pokemon"
+    },
+    {
+      "id": "s5000",
+      "file": "assets/s5000.jpg",
+      "timeSec": 3000,
+      "caption": "[50:00] 눈설왕(No.460)의 기술 목록과 Chilling Water(찬물끼얹기) 습득 목록(Hariyama, Abomasnow, Avalugg 등).",
+      "alt": "눈설왕 기술 목록과 Chilling Water 습득 목록 캡처",
+      "group": "pokemon",
+      "ref": "#/pokemon"
+    },
+    {
+      "id": "b0630",
+      "file": "assets/b0630.jpg",
+      "timeSec": 3990,
+      "caption": "[1:06:30] 메가 마스터 리그. ELO 2923, 모든 세트 0:0 상태에서 실드 사용 여부를 묻는 화면입니다. 오른쪽 위에 대도각참 그림이 표시됩니다.",
+      "alt": "메가 마스터 리그 배틀 시작 화면",
+      "group": "battle",
+      "ref": "#/kingambit"
+    },
+    {
+      "id": "b1810",
+      "file": "assets/b1810.jpg",
+      "timeSec": 4690,
+      "caption": "[1:18:10] 1세트 1:3 상황에서 상대가 자시안을 내보낸 장면입니다.",
+      "alt": "1세트 1대3 상황에서 상대가 자시안을 내보낸 배틀 화면",
+      "group": "battle",
+      "ref": "#/kingambit"
+    },
+    {
+      "id": "b3810",
+      "file": "assets/b3810.jpg",
+      "timeSec": 5890,
+      "caption": "[1:38:10] 종료 직전 화면. ELO는 2881로 바뀌었고 1세트 1:4, 2세트 3:1이 표시됩니다. 이후 2세트는 4승으로 마무리했다고 언급합니다.",
+      "alt": "종료 직전 ELO 2881과 세트 점수가 표시된 화면",
+      "group": "battle",
+      "ref": "#/kingambit"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "너프",
+      "def": "게임 패치로 기술이나 포켓몬의 성능을 낮추는 것. 반대는 버프(상향)."
+    },
+    {
+      "term": "버프",
+      "def": "게임 패치로 기술이나 포켓몬의 성능을 높이는 것. 반대는 너프(하향)."
+    },
+    {
+      "term": "평타",
+      "def": "에너지를 모으는 기본(빠른) 공격. 영상에서 \"5번 만에 나간다\"는 말은 평타 5번이면 차지 기술이 나간다는 뜻."
+    },
+    {
+      "term": "자속",
+      "def": "포켓몬 자신의 타입과 같은 타입의 기술을 쓸 때 위력이 올라가는 효과."
+    },
+    {
+      "term": "CMP",
+      "def": "차지 기술 우선권(Charged Move Priority). 두 선수가 동시에 차지 기술을 누르면 한쪽이 먼저 발동한다."
+    },
+    {
+      "term": "ELO",
+      "def": "배틀리그에서 실력을 나타내는 점수. 이기면 오르고 지면 내려간다."
+    },
+    {
+      "term": "인파이트",
+      "def": "격투 타입의 강력한 차지 기술(Close Combat)."
+    }
+  ],
+  "glossaryNote": "용어 설명은 영상에서 확인한 내용이 아니라 일반적인 설명입니다.",
+  "badgeLabels": {
+    "leak": "유출·비공식",
+    "estimated": "자막 기반 추정",
+    "screen": "화면 확인"
+  },
+  "verdictLabels": {
+    "promising": "기대",
+    "unsure": "애매",
+    "skip": "비추천"
+  }
+}
